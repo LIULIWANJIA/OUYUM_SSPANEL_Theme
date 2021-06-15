@@ -94,6 +94,29 @@ window.location.href='https://xxx.xxx.com';
 href="下载链接" 替换即可
 
 
+### 网站背景图片修改
+/public/theme/ouyum/css/style.css
+
+body {
+    background-image: url("https://s1.ax1x.com/2020/06/11/t76DMQ.png");
+    /*background-color: #F5F5F5;*/
+}
+
+注释部分是白灰色背景(默认不启用)
+
+修改为
 
 
+body {
+    background-color: #F5F5F5;
+}
+
+即为删除壁纸
+
+
+替换background-image: url("https://s1.ax1x.com/2020/06/11/t76DMQ.png");
+
+中的链接为其他图片外链
+
+即可更换壁纸
 
