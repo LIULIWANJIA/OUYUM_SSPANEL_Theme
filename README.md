@@ -14,6 +14,26 @@ Anankke的 release
 
 # 导入教程
 
+需要上传的文件夹路径
+
+#这是css等资源存放的文件夹
+
+网站路径/public/theme/ouyum
+
+
+#这是网页前端等资源存放的文件夹
+
+网站路径/resources/views/ouyum
+
+
+# 细节修改
+
+最重要的地方
+
+修改充值页面的手动充值收款二维码
+
+网站路径/theme/ouyum/wechatpay.jpg
+
 
 
 
