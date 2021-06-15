@@ -83,9 +83,4 @@ href="下载链接" 替换即可
 
 
 
-# 爱发电
-
-![image](https://user-images.githubusercontent.com/70333631/122064217-90982780-ce23-11eb-9b34-8ca74b331f55.png)
-
-
 
