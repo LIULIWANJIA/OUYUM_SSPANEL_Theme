@@ -17,6 +17,11 @@ Anankke的 release
 https://ouoyun.ml/user
 
 
+TG交流群
+
+https://t.me/joinchat/Yf9znCJBGVk3Zjll
+
+
 __________________________________________
 
 
