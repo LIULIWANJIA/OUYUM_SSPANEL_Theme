@@ -55,7 +55,7 @@ __________________________________________
 可自定义主页的地址 做主页和网站分离
 
 修改文件
-网站路径//resources/views/ouyum/index.tpl
+网站路径/resources/views/ouyum/index.tpl
 
 这是定向到/user登录页面
 window.location.href='/user';
