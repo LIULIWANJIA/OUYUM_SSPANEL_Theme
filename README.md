@@ -45,14 +45,15 @@ __________________________________________
 # 细节修改
 
 
-修改充值页面的手动充值收款二维码
-
+### 修改充值页面的手动充值收款二维码
 
 网站路径/public/theme/ouyum/wechatpay.jpg
 
 
 
+
 ### 网站主页 - 当前直接定向到登录页面，移除了主页
+
 可自定义主页的地址 做主页和网站分离
 
 修改文件
@@ -67,6 +68,7 @@ window.location.href='https://xxx.xxx.com';
 
 
 ### 网站主页的软件下载地址
+
 /resources/views/ouyum/user/index.tpl
 第156行
 
