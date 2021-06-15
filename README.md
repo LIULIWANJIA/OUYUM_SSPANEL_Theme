@@ -65,6 +65,10 @@ window.location.href='https://xxx.xxx.com';
 
 
 
+### 网站主页的软件下载地址
+/resources/views/ouyum/user/index.tpl
+第156行
+href="下载链接" 替换即可
 
 
 
