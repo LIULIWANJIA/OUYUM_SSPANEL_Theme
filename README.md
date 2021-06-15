@@ -44,11 +44,12 @@ __________________________________________
 
 # 细节修改
 
-最重要的地方
 
 修改充值页面的手动充值收款二维码
 
+
 网站路径/public/theme/ouyum/wechatpay.jpg
+
 
 
 ### 网站主页 - 当前直接定向到登录页面，移除了主页
@@ -68,6 +69,7 @@ window.location.href='https://xxx.xxx.com';
 ### 网站主页的软件下载地址
 /resources/views/ouyum/user/index.tpl
 第156行
+
 href="下载链接" 替换即可
 
 
