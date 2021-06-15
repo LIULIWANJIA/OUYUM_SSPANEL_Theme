@@ -51,6 +51,23 @@ __________________________________________
 网站路径/public/theme/ouyum/wechatpay.jpg
 
 
+# 网站主页 - 当前直接定向到登录页面，移除了主页
+可自定义主页的地址 做主页和网站分离
+
+修改文件
+网站路径//resources/views/ouyum/index.tpl
+
+这是定向到/user登录页面
+window.location.href='/user';
+
+这是定向到自定义主页页面
+window.location.href='https://xxx.xxx.com';
+
+
+
+
+
+
 
 
 
