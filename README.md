@@ -43,7 +43,7 @@ __________________________________________
 
 修改充值页面的手动充值收款二维码
 
-网站路径/theme/ouyum/wechatpay.jpg
+网站路径/public/theme/ouyum/wechatpay.jpg
 
 
 
