@@ -16,8 +16,6 @@ Anankke的 release
 
 https://ouoyun.ml/user
 
-https://ouoyun.ml/user
-
 __________________________________________
 
 
