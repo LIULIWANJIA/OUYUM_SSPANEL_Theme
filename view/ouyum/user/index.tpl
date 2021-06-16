@@ -497,6 +497,11 @@ table tr td:first-child {
     };
     /*页面准备*/
     $(document).ready(function () {
+    	//下面两行是弹出公告代码，删除前面的//即可启用
+        //$("#result").modal();
+        //$("#msg").html("这是一个公告<br />每次打开主页都会弹出的公告<br />实现方式，可以看GITHUB");
+	
+	
         $("#money_tips").click(function () {
             $("#result").modal();
 		    $("#msg").html('<p>钱包余额可用于本站消费<br />本钱包的虚拟币解释权归{$config['appName']}所有</p>');
