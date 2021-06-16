@@ -12,7 +12,7 @@ Anankke的 release
 
 2021年之前版本的SSP并不兼容
 
-演示站点 - 
+演示站点 - 正在删除并重新搭建最新的坦克节版本中
 
 https://ouoyun.ml/user
 
