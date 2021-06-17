@@ -58,13 +58,14 @@
 									<div class="shop-tat">
 										<span>{$shop->bandwidth()}</span> / <span>{$shop->class_expire()}</span>
 									</div>
+									<!--隐藏设备以及端口限速的配置项目 style="display:none;"-->
 									<div class="shop-cube">
 										<div>
 											<div class="cube-detail">
 												<span>Lv.</span>{$shop->user_class()}
 											</div>
 											<div class="cube-title">
-												VIP
+												VIP等级
 											</div>
 										</div>
 										<div>
@@ -88,21 +89,22 @@
 											</div>
 										</div>
 									</div>
+									<!--如果reset=0 说明是普通包月套餐 则不显示重置周期信息-->
+									{if {$shop->reset()} == '0' }
+									
+									{else}
+									<!--如果reset!=0 则表示是有重置周期的套餐 显示额外信息-->
 									<div class="shop-content">
 										<!--<div class="shop-content-left">账号有效期:</div>
 										<div class="shop-content-right">{$shop->expire()}<span>天</span></div>-->
-										{if {$shop->reset()} == '0' }
-										{else}
 										<div class="shop-content-left">重置周期:</div>
 										<div class="shop-content-right">{$shop->reset_exp()}<span>天</span></div>
-										{/if}
-										{if {$shop->reset()} == '0' }
-										{else}
 										<div class="shop-content-left">重置频率:</div>
 										<div class="shop-content-right">{$shop->reset_value()}<span>G</span>/ {$shop->reset()}<span>天</span>
 										</div>
-										{/if}
 									</div>
+									{/if}
+									
 									<div class="shop-content-extra">
 										{foreach $shop->content_extra() as $service}
 											<div><span class="icon">{$service[0]}</span> {$service[1]}</div>
