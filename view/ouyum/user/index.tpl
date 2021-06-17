@@ -153,7 +153,7 @@ table tr td:first-child {
 															<hr /><br />
 															<p>
 															应用下载:
-															<a class="btn-dl" href="https://liuliwanjia.lanzoux.com/b06lz9gsb" target="_blank"><i class="material-icons icon-sm">cloud_download</i> 本站下载</a>
+															<a class="btn-dl" href="{$config['documents_source']}" target="_blank"><i class="material-icons icon-sm">cloud_download</i> 本站下载</a>
 														    </p>
 														    <br /><hr /><br />
 														</div>
