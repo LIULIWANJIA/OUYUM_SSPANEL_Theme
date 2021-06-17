@@ -2,7 +2,7 @@
 
 <main class="content">
     <div class="container">
-        <div class="col-lg-12 col-sm-12 card-top">
+        <div class="col-xx-12 col-sm-6 card-top">
             <section class="content-inner margin-top-no">
                 <div class="card">
                     <div class="card-main">
@@ -46,6 +46,21 @@
                 <div class="card">
                     <div class="card-main">
                         <div class="card-inner">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-push-1">
+                                        <button id="submit" type="submit"
+                                                class="btn btn-block btn-brand waves-attach waves-light">添加
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-main">
+                        <div class="card-inner">
                             <div class="form-group form-group-label">
                                 <label class="floating-label" for="traffic-package-min">最低可购买用户等级</label>
                                 <input class="form-control maxwidth-edit" id="traffic-package-min" type="text">
@@ -66,10 +81,13 @@
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+            </section>
+        </div>
+        <div class="col-xx-12 col-sm-6 card-top">
+            <section class="content-inner margin-top-no">
                 <div class="card">
                     <div class="card-main">
                         <div class="card-inner">
@@ -141,22 +159,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-main">
-                        <div class="card-inner">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-10 col-md-push-1">
-                                        <button id="submit" type="submit"
-                                                class="btn btn-block btn-brand waves-attach waves-light">添加
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 {include file='dialog.tpl'}
+            </section>
         </div>
     </div>
 </main>
