@@ -1,0 +1,119 @@
+{include file='user/main.tpl'}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/css/editormd.min.css"/>
+
+<main class="content">
+	<div class="container">
+		<section class="content-inner margin-top-no">
+			<div class="ui-card-wrap">
+				<div class="row">
+				    <div class="col-lg-12 col-sm-12 card-top">
+						<div class="card">
+							<div class="card-main">
+								<div class="card-inner margin-bottom-no">
+									<p class="card-heading">联系管理员 - 创建新工单</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			        <div class="col-lg-12 col-sm-12">
+						<section class="content-inner margin-top-no">
+							<div class="card">
+								<div class="card-main">
+									<div class="card-inner">
+										<div class="form-group form-group-label">
+											<label class="floating-label" for="title">请输入工单标题</label>
+											<input class="form-control maxwidth-edit" id="title" type="text">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-main">
+									<div class="card-inner">
+										<div class="form-group form-group-label">
+											<label class="floating-label" for="content">内容</label>
+											<div id="editormd">
+												<textarea style="display:none;" id="content"></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-main">
+									<div class="card-inner">
+										<div class="form-group">
+											<div class="row">
+												<div class="col-md-10 col-md-push-1">
+													<button id="submit" type="submit" class="btn btn-block btn-brand">确认创建工单</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							{include file='dialog.tpl'}
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+    </div>
+</main>
+
+{include file='user/footer.tpl'}
+
+<script src="https://cdn.jsdelivr.net/npm/editor.md@1.5.0/editormd.min.js"></script>
+<script>
+    $(document).ready(function () {
+        function submit() {
+            $("#result").modal();
+            $$.getElementById('msg').innerHTML = '正在提交付...'
+            $.ajax({
+                type: "POST",
+                url: "/user/ticket",
+                dataType: "json",
+                data: {
+                    content: editor.getHTML(),
+                    markdown: $('.editormd-markdown-textarea').val(),
+                    title: $$getValue('title')
+                },
+                success: (data) => {
+                    if (data.ret) {
+                        $("#result").modal();
+                        $$.getElementById('msg').innerHTML = data.msg;
+                        window.setTimeout("location.href='/user/ticket'", {$config['jump_delay']});
+                    } else {
+                        $("#result").modal();
+                        $$.getElementById('msg').innerHTML = data.msg;
+                    }
+                },
+                error: (jqXHR) => {
+                    $("#msg-error").hide(10);
+                    $("#msg-error").show(100);
+                    $$.getElementById('msg-error-p').innerHTML = `发生错误：${
+                            jqXHR.status
+                            }`;
+                }
+            });
+        }
+        $("#submit").click(function () {
+            submit();
+        });
+    });
+    $(function () {
+        editor = editormd("editormd", {
+            path: "https://cdn.jsdelivr.net/npm/editor.md@1.5.0/lib/", // Autoload modules mode, codemirror, marked... dependents libs path
+            height: 720,
+            saveHTMLToTextarea: true,
+            emoji: true
+        });
+        /*
+        // or
+        var editor = editormd({
+            id   : "editormd",
+            path : "../lib/"
+        });
+        */
+    });
+</script>
