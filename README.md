@@ -16,6 +16,8 @@ Anankke的 release
 
 https://ouoyun.ml/user
 
+不喜欢二次元风可以移除壁纸，直接变成纯色简约风
+
 
 TG交流群
 
