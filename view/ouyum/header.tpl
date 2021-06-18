@@ -21,6 +21,14 @@
             position: fixed;
             bottom: 0;
         }
+	body {
+            opacity:0.9;
+            font-size: 14px;
+            font-family:"Helvetica Neue", Helvetica, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", "微软雅黑", "华文细黑", STHeiti, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            background-image: url("https://i.loli.net/2018/06/06/5b17082ad9e5d.png");
+            background-attachment: fixed;
+        }
     </style>
     <!-- favicon -->
     <!-- js -->
