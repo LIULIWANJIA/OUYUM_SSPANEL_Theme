@@ -11,15 +11,20 @@
 </script>
 
 <main class="content">
-    <div class="content-header ui-content-header">
-        <div class="container">
-            <h1 class="content-heading">节点列表</h1>
-        </div>
-    </div>
-    <div class="container">
-        <section class="content-inner margin-top-no">
-            <div class="ui-card-wrap">
-                <div class="row">
+	<div class="container">
+		<section class="content-inner margin-top-no">
+			<div class="ui-card-wrap">
+				<div class="row">
+				    <div class="col-lg-12 col-sm-12 card-top">
+						<div class="card">
+							<div class="card-main">
+								<div class="card-inner">
+									<p class="card-heading">节点状态</p>
+									<p>部分节点不显示实时在线人数(例如中转节点)</p>
+								</div>
+							</div>
+						</div>
+					</div>
                     <div class="col-lg-12 col-sm-12 nodelist">
                         <div class="ui-switch node-switch">
                             <div class="card">
