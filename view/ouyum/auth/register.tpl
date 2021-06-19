@@ -120,7 +120,6 @@
     <div class="divfooter">
         <a href="/user">去登录</a><br />
         <p align= "center" style ="font-size:10px;">注册即代表同意服务条款，以及保证所录入信息的真实性，如有不实信息会导致账号被删除。</p>
-	    &copy;2021 {$config["appName"]} | Powered by <a href="https://liuliwanjia.top" target="_blank">LIULIWANJIA</a>
 	</div>
 </div>
 
