@@ -1,7 +1,7 @@
 body {
-    background-image: url("https://i.loli.net/2018/06/06/5b17082ad9e5d.png");
-    /*background-color: #F5F5F5;*/
-    opacity:0.9;
+    /*background-image: url("https://i.loli.net/2018/06/06/5b17082ad9e5d.png");*/
+    background-color: #F5F5F5;
+    opacity:0.95;
     font-size: 14px;
     font-family:"Helvetica Neue", Helvetica, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", "微软雅黑", "华文细黑", STHeiti, sans-serif;
     -webkit-font-smoothing: antialiased;
