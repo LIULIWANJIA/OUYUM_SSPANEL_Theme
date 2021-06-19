@@ -7,7 +7,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
 <footer class="ui-footer">
     <div class="container">
-        &copy;{date("Y")} {$config['appName']} | Powered by <a href="/staff">SSPANEL</a>
+        &copy;{date("Y")} {$config['appName']} | Powered by <a href="/staff">SSPANEL</a> theme change by <a href="https://liuliwanjia.top" target="_blank">LIULIWANJIA</a>
         {if $config['enable_analytics_code'] === true}{include file='analytics.tpl'}{/if}
     </div>
 </footer>
