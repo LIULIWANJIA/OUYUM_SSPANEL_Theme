@@ -55,6 +55,18 @@
 							</div>
 						</div>
 					</div>
+					{if $pmw!=''}
+					<div class="col-xx-12 col-md-12">
+						<div class="card">
+							<div class="card-main">
+								<div class="card-inner">
+									{$pmw}
+								</div>
+							</div>
+						</div>
+					</div>
+					{/if}
+					<br />
 					<!--微信人工充值途径加入 充值码更改路径为主题资源文件夹主目录/theme/ouyum/wechatpay.jpg-->
 					<div class="col-xx-12 col-sm-8">
 						<div class="card">
@@ -85,17 +97,6 @@
 						</div>
 					</div>
 					<br />
-					{if $pmw!=''}
-						<div class="col-lg-12 col-md-12">
-							<div class="card">
-								<div class="card-main">
-									<div class="card-inner">
-										{$pmw}
-									</div>
-								</div>
-							</div>
-						</div>
-					{/if}
 					<div class="col-xx-12 col-md-12">
 						<div class="card">
 							<div class="card-main">
