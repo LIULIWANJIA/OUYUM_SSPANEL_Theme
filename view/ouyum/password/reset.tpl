@@ -37,7 +37,6 @@
 </div>
 <div class="divfooter">
     <a href="/user">去登录</a><br />
-    &copy;2021 {$config["appName"]} | Powered by <a href="/">LIULIWANJIA</a>
 </div>
 
 {include file='dialog.tpl'}
