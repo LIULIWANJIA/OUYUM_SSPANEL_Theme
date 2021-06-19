@@ -974,7 +974,7 @@ ul.dropdown-menu {
 	top: 0;
 	background: #fff;
 	height: 120px;
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: 0 0 0 #e5e5e5, 0 0 15px rgb(0 0 0 / 12%), 0 2px 4px rgb(0 0 0 / 5%);
 	margin-top: 1em;
 	transition-duration: .1s;
