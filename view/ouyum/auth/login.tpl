@@ -76,7 +76,6 @@
 </div>
 <div class="divfooter">
     <a href="/password/reset">忘记密码?</a><br />
-    &copy;2021 {$config["appName"]} | Powered by <a href="https://liuliwanjia.top" target="_blank">LIULIWANJIA</a>
 </div>
 {include file='dialog.tpl'}
 
