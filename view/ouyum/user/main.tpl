@@ -76,7 +76,7 @@
                 <p>&nbsp;{if $user->class!=0} VIP {$user->class}{else} 白嫖{/if} 的 {$user->user_name}</p>
             <ul class="nav">
                 <li>
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_me">管理菜单</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_me"><strong>管理菜单</strong><span style="font-size:8px"> &nbsp; 点击收起</span></a>
                     <ul class="menu-collapse collapse in" id="ui_menu_me">
                         <li>
                             <a href="/user"><i class="icon icon-lg">account_balance_wallet</i>&nbsp;用户中心</a>
@@ -104,7 +104,7 @@
                             <a href="/user/invite"><i class="icon icon-lg">loyalty</i>&nbsp;邀请朋友</a>
                         </li>
                     </ul>
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_use">其他菜单</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_use"><strong>其他菜单</strong></a>
                     <ul class="menu-collapse collapse" id="ui_menu_use">
                         <li>
                             <a href="/user/edit"><i class="icon icon-lg">sync_problem</i>&nbsp;资料编辑</a>
