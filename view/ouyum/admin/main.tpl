@@ -85,24 +85,24 @@
             <a class="menu-logo" href="/"><!--<i class="icon icon-lg">person_pin</i>-->&nbsp;管理面板</a>
             <ul class="nav">
                 <li>
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_me">我的</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_me"><strong>我的</strong><span style="font-size:8px"> &nbsp; 点击收起</span></a>
                     <ul class="menu-collapse collapse in" id="ui_menu_me">
                         <li><a href="/admin"><i class="icon icon-lg">business_center</i>&nbsp;系统概览</a></li>
                         <li><a href="/admin/announcement"><i class="icon icon-lg">announcement</i>&nbsp;公告管理</a></li>
                         <li><a href="/admin/ticket"><i class="icon icon-lg">question_answer</i>&nbsp;工单管理</a></li>
                         <li><a href="/admin/node"><i class="icon icon-lg">router</i>&nbsp;节点列表</a></li>
                     </ul>
-                    <!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_node">节点</a>
+                    <!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_node"><strong>节点</strong></a>
                     <ul class="menu-collapse collapse in" id="ui_menu_node">
                         AAA
                     </ul>-->
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_user">用户管理</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_user"><strong>用户管理</strong></a>
                     <ul class="menu-collapse collapse in" id="ui_menu_user">
                         <li><a href="/admin/user"><i class="icon icon-lg">supervisor_account</i>&nbsp;用户列表</a></li>
                         <li><a href="/admin/invite"><i class="icon icon-lg">loyalty</i>&nbsp;邀请与返利</a></li>
                         <li><a href="/admin/subscribe"><i class="icon icon-lg">dialer_sip</i>&nbsp;订阅记录</a></li>
                     </ul>
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_trade">商品与交易</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_trade"><strong>商品与交易</strong></a>
                     <ul class="menu-collapse collapse" id="ui_menu_trade">
                         <li><a href="/admin/code">
                                 <i class="icon icon-lg">code</i>
@@ -115,11 +115,11 @@
                             <li><a href="/admin/editConfig"><i class="icon icon-lg">shopping_cart</i>&nbsp;支付设置</a></li>
                         {/if}
                     </ul>
-                    <!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_config">配置</a>
+                    <!--<a class="waves-attach" data-toggle="collapse" href="#ui_menu_config"><strong>配置</strong></a>
                     <ul class="menu-collapse collapse" id="ui_menu_config">
                         
                     </ul>-->
-                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">其他菜单</a>
+                    <a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect"><strong>其他菜单</strong></a>
                     <ul class="menu-collapse collapse " id="ui_menu_detect">
                         <li><a href="/admin/config/telegram"><i class="icon icon-lg">supervisor_account</i>&nbsp;Telegram</a></li>
                         <li><a href="/admin/config/register"><i class="icon icon-lg">supervisor_account</i>&nbsp;用户注册设置</a></li>
